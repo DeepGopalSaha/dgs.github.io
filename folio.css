@@ -1,0 +1,285 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    cursor:cell;
+}
+.hero{
+    height:50%;
+    width:100%;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top:45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 3%;
+    background-color: rgb(236, 101, 101);
+}
+.logo{
+    color:white;
+    font-size: 40px;
+    font-family:'Edu VIC WA NT Beginner', cursive;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size:20px;
+    padding:5px 5px;
+    position:sticky;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color:rgb(62, 221, 168);
+    cursor:grab;
+}
+.dp{
+    height:300px;
+    width:300px;
+}
+.story{
+    color:white;
+    height:50%;
+    padding-top:3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+    margin-left:200px;
+    margin-right: 200px;
+    border-radius:30px;
+    background-color: rgb(239, 118, 118);
+}
+.story-line{
+    font-size:30px; 
+    font-family:'Edu VIC WA NT Beginner', cursive;
+}
+.story-size{
+    font-size:50px;
+    color:aqua;
+}
+.about{
+    padding:30px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about2{
+    margin-left:200px;
+    margin-right:200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    color:rgb(236, 101, 101);
+}
+.tagline{
+    margin-left:300px;
+    margin-right:300px;
+    background-color:white;
+    font-size:30px;
+    color:rgb(236, 101, 101);;
+    padding:100px;
+    border-radius:20px;
+    border:1px solid rgb(236, 101, 101);
+    font-family:'Edu VIC WA NT Beginner', cursive;
+}
+button.tagline:hover{
+    transform:scale(1.1);
+}
+button {
+    background-color:rgb(236, 101, 101);
+    padding:10px;
+    border-radius:20px;
+    border:1px solid rgb(236, 101, 101);
+}
+button:hover{
+    transform:scale(1.25);
+}
+button a{
+    font-size:20px;
+    text-decoration:none;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dp-about{
+    height:400px;
+}
+.education{
+    background-color: rgb(232, 164, 164);;
+}
+.school{
+    margin-left:300px;
+    display:flex;
+    justify-content: space-around;
+}
+.school p{
+    margin-left:200px;
+    margin-right:200px;
+    padding:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+.college{
+    margin-left:200px;
+    display:flex;
+    justify-content: space-around;
+}
+.clg-name{
+    font-family:monospace; 
+    font-size:20px;
+}
+.college img{
+    margin-top:32px;
+    margin-left:200px;
+    margin-right:300px;
+    padding:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.college p{
+    padding-top:50px
+}
+.code{
+    padding:10px;
+    margin-left:50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.code i{
+    color:rgb(236, 101, 101);
+    font-size:30px;
+}
+.leet,.hacker,.chef{
+    height:50px;
+}
+footer{
+    height:150px;
+    width:100%;
+    background-color:rgb(228, 176, 176);
+    padding:50px;
+}
+.footy{
+    display:flex;
+    justify-content:space-around;
+}
+@media only screen and (max-width:500px) {
+    nav{
+        width:100%;
+    }
+    nav ul li{
+        font-size:9px;
+    }
+    nav img{
+        height:30px;
+    }
+    .story{
+    height:30%;
+    width:170px;
+    padding-top:3%;
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    margin-left:130px;
+    margin-right:30px;
+    }
+    .story-line{
+        font-size:17px;
+    }
+    .story-size{
+        font-size:18px;
+    }
+    .dp{
+        height:100px;
+        width:100px;
+        margin-right:100px;
+        margin-left:120px;
+    }
+    .tagline{
+        margin-left:100px;
+        margin-right:60px;
+        width:200px;
+        font-size:15px;
+        padding:50px;
+        border-radius:20px;
+    }
+    .logo{
+        font-size:16px;
+    }
+    .about-nav {
+        width:100%;
+    }
+    .dp-about{
+        height:150px;
+        margin-left:100px;
+    }
+    .about{
+        padding:10px;
+    }
+    .about2{
+        margin-left:60px;
+        margin-right:150px;
+        font-size:10px;
+    }
+    button {
+        border:1px solid rgb(236, 101, 101);
+    }
+    button:hover{
+        transform:scale(1.10);
+    }
+    button a{
+        font-size:10px;
+        text-decoration:none;
+    }
+    .school{
+        margin-left:400px;
+    }
+    .school img{
+        margin-top:20px;
+        height:100px;
+    }
+    .school p{
+        margin-left:50px;
+        margin-right:400px;
+        padding:10px;
+        font-size:15px;
+    }
+    .college{
+        margin-left:200px;
+    }
+    .clg-name{
+        font-size:15px;
+    }
+    .college img{
+        margin-top:60px;
+        margin-left:50px;
+        margin-right:400px;
+        padding:15px;
+    }
+    .college p{
+        padding-top:50px;
+        margin-left:200px;
+        font-size:10px;
+    }
+    .code{
+        font-size:20px;
+    }
+    .code i{
+        color:rgb(236, 101, 101);
+        font-size:20px;
+    }
+    .leet,.hacker,.chef{
+        height:30px;
+    }
+    .about-foot{
+        width:100%;
+    }
+}
